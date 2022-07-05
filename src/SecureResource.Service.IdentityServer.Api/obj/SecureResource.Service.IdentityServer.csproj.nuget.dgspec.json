@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/YuraChernii/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -61,6 +62,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.16, )"
+            },
+            "SecureResource.Library": {
+              "target": "Package",
+              "version": "[0.1.0, )"
             }
           },
           "imports": [
@@ -103,7 +108,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/YuraChernii/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -167,7 +173,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/YuraChernii/index.json": {}
         },
         "frameworks": {
           "net5.0": {

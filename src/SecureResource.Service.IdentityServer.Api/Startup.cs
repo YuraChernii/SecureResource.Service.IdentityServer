@@ -14,9 +14,11 @@ using Microsoft.AspNetCore.CookiePolicy;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using SecureResource.Library;
 using SecureResource.Service.IdentityServer.Infrastructure;
 using SecureResource.Service.IdentityServer.Infrastructure.Services;
 using SecureResource.Service.IdentityServer.Middlewares;
@@ -25,6 +27,11 @@ namespace IdentityServer
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
@@ -33,18 +40,35 @@ namespace IdentityServer
             //var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
             //const string connectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;database=IdentityServer4.Quickstart.EntityFramework-4.0.0;trusted_connection=yes;";
 
+            Class1 d = new Class1();
+            string connStr = Configuration.GetConnectionString("SQLServerDB");
+
             services.AddInfrastructure();
 
             services.AddControllersWithViews();
+            //Server=tcp:secure-resource.database.windows.net,1433;Initial Catalog=IdentityServer-database;Persist Security Info=False;User ID=mikeke373737@gmail.com@secure-resource;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+            //services.AddIdentityServer()
+            //    .AddInMemoryClients(identityDataService.GetClients())
+            //    .AddTestUsers(identityDataService.GetTestUser())
+            //    .AddInMemoryIdentityResources(identityDataService.GetIdentityResource())
+            //    .AddInMemoryApiResources(identityDataService.GetApiResource())
+            //    .AddInMemoryApiScopes(identityDataService.GetApiScope())
+            //    .AddDeveloperSigningCredential();
+
+            Action<DbContextOptionsBuilder> dbCtx = (ctx => ctx.UseSqlServer(connStr));
 
             var identityDataService = new IdentityDataInMemoryService();
             services.AddIdentityServer()
-                .AddInMemoryClients(identityDataService.GetClients())
-                .AddTestUsers(identityDataService.GetTestUser())
-                .AddInMemoryIdentityResources(identityDataService.GetIdentityResource())
-                .AddInMemoryApiResources(identityDataService.GetApiResource())
-                .AddInMemoryApiScopes(identityDataService.GetApiScope())
-                .AddDeveloperSigningCredential();
+                    .AddTestUsers(identityDataService.GetTestUser())
+                    .AddDeveloperSigningCredential()
+                    .AddConfigurationStore(o =>
+                    {
+                        o.ConfigureDbContext = dbCtx;
+                    })
+                    .AddOperationalStore(o =>
+                    {
+                        o.ConfigureDbContext = dbCtx;
+                    });
 
             services.AddSingleton<ICorsPolicyService>((container) => {
                 var logger = container.GetRequiredService<ILogger<DefaultCorsPolicyService>>();
@@ -92,6 +116,8 @@ namespace IdentityServer
 
         private void InitializeDatabase(IApplicationBuilder app)
         {
+            var identityDataService = new IdentityDataInMemoryService();
+
             using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
             {
                 serviceScope.ServiceProvider.GetRequiredService<PersistedGrantDbContext>().Database.Migrate();
@@ -100,25 +126,35 @@ namespace IdentityServer
                 context.Database.Migrate();
                 if (!context.Clients.Any())
                 {
-                    foreach (var client in Config.Clients)
+                    foreach (var client in identityDataService.GetClients())
                     {
                         context.Clients.Add(client.ToEntity());
                     }
                     context.SaveChanges();
                 }
-
+                
                 if (!context.IdentityResources.Any())
                 {
-                    foreach (var resource in Config.IdentityResources)
+                    foreach (var resource in identityDataService.GetIdentityResource())
                     {
                         context.IdentityResources.Add(resource.ToEntity());
                     }
                     context.SaveChanges();
                 }
 
+                if (!context.ApiResources.Any())
+                {
+                    foreach (var resource in identityDataService.GetApiResource())
+                    {
+                        context.ApiResources.Add(resource.ToEntity());
+                    }
+                    context.SaveChanges();
+                }
+
+
                 if (!context.ApiScopes.Any())
                 {
-                    foreach (var resource in Config.ApiScopes)
+                    foreach (var resource in identityDataService.GetApiScope())
                     {
                         context.ApiScopes.Add(resource.ToEntity());
                     }
