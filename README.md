@@ -1,4 +1,1 @@
 # SecureResource.Service.IdentityServer
-
-
-
