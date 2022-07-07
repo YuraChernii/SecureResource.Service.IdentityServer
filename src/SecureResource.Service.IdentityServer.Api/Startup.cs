@@ -18,6 +18,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using SecureResource.Library;
 //using SecureResource.Library;
 using SecureResource.Service.IdentityServer.Infrastructure;
 using SecureResource.Service.IdentityServer.Infrastructure.Services;
@@ -40,7 +41,7 @@ namespace IdentityServer
             //var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
             //const string connectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;database=IdentityServer4.Quickstart.EntityFramework-4.0.0;trusted_connection=yes;";
 
-            //Class1 d = new Class1();
+            Class1 d = new Class1();
 
             string connStr = Configuration.GetConnectionString("SQLServerDB");
 
