@@ -14,7 +14,7 @@ jobs:
         with:
           dotnet-version: 5.0.x
       - name: GitHub NuGet auth
-        run: dotnet nuget add source "https://nuget.pkg.github.com/YuraChernii/index.json" --name 'mik373737373737@gmail.com' --username az --password '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' --store-password-in-clear-text
+        run: dotnet nuget add source "https://nuget.pkg.github.com/YuraChernii/index.json" --name 'mik373737373737@gmail.com' --username az --password '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' --store-password-in-clear-text
       - name: Restore Nuget packages of api
         run: dotnet restore
       - name: Build
