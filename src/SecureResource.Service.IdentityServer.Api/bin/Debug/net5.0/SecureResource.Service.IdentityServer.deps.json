@@ -37,8 +37,8 @@
           "IdentityServer4.EntityFramework": "4.1.1",
           "Microsoft.EntityFrameworkCore.Design": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.16",
-          "SecureResource.Library": "0.1.0",
           "SecureResource.Service.IdentityServer.Infrastructure": "1.0.0",
+          "SecureResource.Library": "1.0.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -773,17 +773,6 @@
           "Microsoft.NETCore.Targets": "1.1.3"
         }
       },
-      "SecureResource.Library/0.1.0": {
-        "runtime": {
-          "lib/net5.0/SecureResource.Library.dll": {
-            "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.0.0"
-          }
-        },
-        "compile": {
-          "lib/net5.0/SecureResource.Library.dll": {}
-        }
-      },
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1359,6 +1348,17 @@
         },
         "compile": {
           "SecureResource.Service.IdentityServer.Infrastructure.dll": {}
+        }
+      },
+      "SecureResource.Library/1.0.0.0": {
+        "runtime": {
+          "SecureResource.Library.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "SecureResource.Library.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3321,13 +3321,6 @@
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
     },
-    "SecureResource.Library/0.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-g37feTGw39JsSyAChi8EUXXKYA8D5zLDaBooLUwQjO4S3oKDTTJr9wd6Zr6vaflBZE1Ryr+YJM2437o9MD0/Aw==",
-      "path": "secureresource.library/0.1.0",
-      "hashPath": "secureresource.library.0.1.0.nupkg.sha512"
-    },
     "System.Collections/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -3769,6 +3762,11 @@
     },
     "SecureResource.Service.IdentityServer.Infrastructure/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SecureResource.Library/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

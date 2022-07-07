@@ -18,4 +18,10 @@
     <ProjectReference Include="..\SecureResource.Service.IdentityServer.Infrastructure\SecureResource.Service.IdentityServer.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="SecureResource.Library">
+      <HintPath>..\..\..\SecureResource.Library\SecureResource.Library\SecureResource.Library\bin\Debug\net5.0\SecureResource.Library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
