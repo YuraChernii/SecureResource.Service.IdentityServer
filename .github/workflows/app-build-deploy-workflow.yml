@@ -13,6 +13,9 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: 5.0.x
+          source-url: https://nuget.pkg.github.com/YuraChernii/index.json
+        env:
+          NUGET_AUTH_TOKEN: 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
       - name: Restore dependencies
         run: dotnet restore
       - name: Build
