@@ -41,6 +41,7 @@ namespace IdentityServer
             //const string connectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;database=IdentityServer4.Quickstart.EntityFramework-4.0.0;trusted_connection=yes;";
 
             Class1 d = new Class1();
+
             string connStr = Configuration.GetConnectionString("SQLServerDB");
 
             services.AddInfrastructure();

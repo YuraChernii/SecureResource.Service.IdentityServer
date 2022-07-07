@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rLW2L6yh5MKcW6vpopUtY3sVrDMKNvWvC/WB0PvwXUg4/DtKHIo+fgzVxRgnTRnxnwaz7PA84o48+ij5tfNoTg==",
+  "dgSpecHash": "sLykPx+fEzekeXi9gDij8mSHXYbnaAZitItzgfhB7xnnst7mGRPdiweM5oc+IYEKdCw7bVAjRXmULG2BpsZlRA==",
   "success": true,
   "projectFilePath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj",
   "expectedPackageFiles": [

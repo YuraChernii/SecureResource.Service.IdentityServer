@@ -188,5 +188,5 @@ C:\Repo\MyProjects\MyProjects\SecureResource\SecureResource.Service.IdentityServ
 C:\Repo\MyProjects\MyProjects\SecureResource\SecureResource.Service.IdentityServer\src\SecureResource.Service.IdentityServer.Api\obj\Debug\net5.0\ref\SecureResource.Service.IdentityServer.dll
 C:\Repo\MyProjects\MyProjects\SecureResource\SecureResource.Service.IdentityServer\src\SecureResource.Service.IdentityServer.Api\bin\Debug\net5.0\appsettings.Production.json
 C:\Repo\MyProjects\MyProjects\SecureResource\SecureResource.Service.IdentityServer\src\SecureResource.Service.IdentityServer.Api\bin\Debug\net5.0\appsettings.Stagging.json
-C:\Repo\MyProjects\MyProjects\SecureResource\SecureResource.Service.IdentityServer\src\SecureResource.Service.IdentityServer.Api\bin\Debug\net5.0\nuget.config
 C:\Repo\MyProjects\MyProjects\SecureResource\SecureResource.Service.IdentityServer\src\SecureResource.Service.IdentityServer.Api\bin\Debug\net5.0\SecureResource.Library.dll
+C:\Repo\MyProjects\MyProjects\SecureResource\SecureResource.Service.IdentityServer\src\SecureResource.Service.IdentityServer.Api\bin\Debug\net5.0\libman.json
