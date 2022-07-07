@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <Reference Include="SecureResource.Library">
-      <HintPath>..\..\..\SecureResource.Library\SecureResource.Library\SecureResource.Library\bin\Debug\net5.0\SecureResource.Library.dll</HintPath>
+      <HintPath>..\Assemblies\SecureResource.Library.dll</HintPath>
     </Reference>
   </ItemGroup>
 
