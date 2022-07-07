@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dmY7xMEyaHYwtDHKj+nKWrcHJwAhmsZ44P/7qUDP7WaY1qDV6BWnCquJt8X6dNbVqHMH5egM1M/mFfrwoPnTqw==",
+  "dgSpecHash": "PRx/f8oVLYtZxLzkl5yGHeQ48ZlDmf4i9asb4KOJLCHFMB+hwuAx7ceeekFWuuEznUdpXfoKVAOEle/1PUoICA==",
   "success": true,
   "projectFilePath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj",
   "expectedPackageFiles": [
@@ -42,7 +42,6 @@
     "C:\\Users\\Yurii\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Yurii\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\Yurii\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
-    "C:\\Users\\Yurii\\.nuget\\packages\\secureresource.library\\0.1.0\\secureresource.library.0.1.0.nupkg.sha512",
     "C:\\Users\\Yurii\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Yurii\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\Yurii\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",

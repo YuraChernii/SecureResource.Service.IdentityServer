@@ -538,15 +538,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "SecureResource.Library/0.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/SecureResource.Library.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/SecureResource.Library.dll": {}
-        }
-      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2383,17 +2374,6 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
-      ]
-    },
-    "SecureResource.Library/0.1.0": {
-      "sha512": "g37feTGw39JsSyAChi8EUXXKYA8D5zLDaBooLUwQjO4S3oKDTTJr9wd6Zr6vaflBZE1Ryr+YJM2437o9MD0/Aw==",
-      "type": "package",
-      "path": "secureresource.library/0.1.0",
-      "files": [
-        ".nupkg.metadata",
-        "lib/net5.0/SecureResource.Library.dll",
-        "secureresource.library.0.1.0.nupkg.sha512",
-        "secureresource.library.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -5676,7 +5656,6 @@
       "IdentityServer4.EntityFramework >= 4.1.1",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.16",
-      "SecureResource.Library >= 0.1.0",
       "SecureResource.Service.IdentityServer.Infrastructure >= 1.0.0"
     ]
   },
@@ -5741,10 +5720,6 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[5.0.16, )"
-          },
-          "SecureResource.Library": {
-            "target": "Package",
-            "version": "[0.1.0, )"
           }
         },
         "imports": [

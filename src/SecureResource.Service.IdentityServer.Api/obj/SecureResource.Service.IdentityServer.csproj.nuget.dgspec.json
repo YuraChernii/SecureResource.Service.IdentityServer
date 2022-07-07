@@ -62,10 +62,6 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.16, )"
-            },
-            "SecureResource.Library": {
-              "target": "Package",
-              "version": "[0.1.0, )"
             }
           },
           "imports": [
