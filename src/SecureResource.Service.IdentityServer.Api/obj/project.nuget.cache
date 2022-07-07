@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MjnwnxoebxNmfgiXB0YmjHc27oWjYqu+LTovwrH05poJTgKQjwayNe5DyK2SuaGn/v8NQDeXr/UtJJvSmHSpng==",
+  "dgSpecHash": "I178Gp5Y9m/s34xjh8qLK7/AKtD+BDHfH+s9HNsi7ByrV8sO1Fnf9zs5A8pOtFB1esztNHgrWqS4tAecz/zvtQ==",
   "success": true,
-  "projectFilePath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj",
+  "projectFilePath": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yurii\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Yurii\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

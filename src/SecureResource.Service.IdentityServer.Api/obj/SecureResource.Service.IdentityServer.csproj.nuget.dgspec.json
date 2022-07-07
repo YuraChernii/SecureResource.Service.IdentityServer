@@ -1,20 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj": {}
+    "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj": {
+    "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj",
+        "projectUniqueName": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj",
         "projectName": "SecureResource.Service.IdentityServer",
-        "projectPath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj",
+        "projectPath": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\SecureResource.Service.IdentityServer.csproj",
         "packagesPath": "C:\\Users\\Yurii\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\obj\\",
+        "outputPath": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\NuGet.Config",
           "C:\\Users\\Yurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -23,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/YuraChernii/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj": {
-                "projectPath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj"
+              "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj": {
+                "projectPath": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj"
               }
             }
           }
@@ -91,17 +89,16 @@
         }
       }
     },
-    "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\SecureResource.Service.IdentityServer.Appplication.csproj": {
+    "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\SecureResource.Service.IdentityServer.Appplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\SecureResource.Service.IdentityServer.Appplication.csproj",
+        "projectUniqueName": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\SecureResource.Service.IdentityServer.Appplication.csproj",
         "projectName": "SecureResource.Service.IdentityServer.Appplication",
-        "projectPath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\SecureResource.Service.IdentityServer.Appplication.csproj",
+        "projectPath": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\SecureResource.Service.IdentityServer.Appplication.csproj",
         "packagesPath": "C:\\Users\\Yurii\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\obj\\",
+        "outputPath": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\NuGet.Config",
           "C:\\Users\\Yurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -110,8 +107,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/YuraChernii/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -157,17 +153,16 @@
         }
       }
     },
-    "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj": {
+    "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj",
+        "projectUniqueName": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj",
         "projectName": "SecureResource.Service.IdentityServer.Infrastructure",
-        "projectPath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj",
+        "projectPath": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Yurii\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\obj\\",
+        "outputPath": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\NuGet.Config",
           "C:\\Users\\Yurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -176,15 +171,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/YuraChernii/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\SecureResource.Service.IdentityServer.Appplication.csproj": {
-                "projectPath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\SecureResource.Service.IdentityServer.Appplication.csproj"
+              "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\SecureResource.Service.IdentityServer.Appplication.csproj": {
+                "projectPath": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Appplication\\SecureResource.Service.IdentityServer.Appplication.csproj"
               }
             }
           }

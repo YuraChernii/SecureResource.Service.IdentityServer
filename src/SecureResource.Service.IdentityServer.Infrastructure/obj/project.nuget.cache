@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MB+B4cRNjFMEWOLon7Oahf2Ld+oMh9yc18rwrU2lSbMeke59oWgGFcA52dGkRNe5C3qCSzU7JfM/+ziHrd3yYw==",
+  "dgSpecHash": "WWhdNjtKrvgJRc+ng8/Gy07mS9sWXkbk8JoWdSznLAOmXIsKj73q9iHMpn8gc4mut7HFWDtQoP7Pmx6eWS4NYw==",
   "success": true,
-  "projectFilePath": "C:\\Repo\\MyProjects\\MyProjects\\SecureResource\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj",
+  "projectFilePath": "C:\\SecureResource.Service.IdentityServer\\src\\SecureResource.Service.IdentityServer.Infrastructure\\SecureResource.Service.IdentityServer.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yurii\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
     "C:\\Users\\Yurii\\.nuget\\packages\\identityserver4\\4.1.1\\identityserver4.4.1.1.nupkg.sha512",
