@@ -2,9 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-	  <RepositoryUrl>
-		  https://github.com/YuraChernii/SecureResource.Library
-	  </RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
